@@ -16,7 +16,7 @@ const router = createBrowserRouter(
     <Route>
       <Route
         path={routes.main.path}
-        element={<Navigate to={`${routes.emails.path}/inbox`} />}
+        element={<Navigate to={`${routes.emails.path}/allmail`} />}
       />
       <Route path={routes.main.path} element={<routes.main.element />}>
         <Route
